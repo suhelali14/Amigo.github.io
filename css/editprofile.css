@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    
+
+}
+body{
+    background: linear-gradient(90deg,#2C394B,#082032);
+}
+.header{
+    top: 0;
+    z-index: 1;
+    box-shadow: 0px 8px 10px 0px  rgb(0, 0, 0,0.57);
+    left: 0;
+    width: 100%;
+    position: fixed;
+    background: linear-gradient(135deg,#2C394B,#071f30);
+    justify-content: space-between;
+}
+header.sticky{
+    background: linear-gradient(135deg,#2C394B,#071f30);
+}
+.span-1 h1{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+.header ul{
+    position: relative;
+    display: flex;
+    padding: 1%;
+    letter-spacing: 1px;
+    align-items: center;
+    justify-content: space-between;
+}
+.header ul span{
+    position: relative;
+    font-size: 1.5rem;
+    color: #5aff70;
+    
+}
+.header ul li{
+    position: relative;
+    list-style: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+    
+  
+}
+.header ul li a{
+    position: relative;
+    color: aliceblue;
+    text-decoration: none;
+    
+}
+header.sticky ul {
+    padding: 0%;
+}
+.btnd{
+    font-size: 1.3rem;
+    border-radius: 2rem;
+    padding: 1%;
+    color: #ededed;
+    border-color: #5aff70;
+    background-color: transparent;
+    cursor: pointer;
+    
+}
+.btnd:hover{
+    background-color: #55acee86;
+    border-color: black;
+    transition: 0.58s;
+    transform: scale(1.12);
+}
+ 
+ 
+.title-1{
+    margin-left: 30%;
+}
+.span-1{
+    margin-left: 3rem;
+    
+}
+.span-1 h1{
+    font-size: 2.5rem;
+    font-family: 'ubuntu';
+}
+.login{
+    font-size: 1.2rem;
+    border-radius: 2rem;
+    padding: 1%;
+    color: #ededed;
+    border-color: #5aff70;
+    background-color: transparent;
+    cursor: pointer;
+  
+} 
+.login:hover{
+    background-color: #55acee86;
+    border-color: black;
+    transition: 0.58s;
+    transform: scale(1.12);
+}
+.header ul li{
+    font-size: 1.15rem;
+    font-weight: 500;
+}
+.section-1{
+    display: flex;
+
+}
+
+.main-comp{
+    display: flex;
+}
+.img-set{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 0 42%;
+}
+.img-account-profile {
+        height: 10rem;
+}
+.rounded-circle {
+    border-radius: 50% !important;
+}
+.card {
+    box-shadow: 0 0.15rem 1.75rem 0 rgb(33 40 50 / 15%);
+}
+.card .card-header {
+    font-weight: 500;
+}
+.card-header:first-child {
+    border-radius: 0.35rem 0.35rem 0 0;
+}
+.card-header {
+    padding: 1rem 1.35rem;
+    margin-bottom: 0;
+    background-color: rgba(33, 40, 50, 0.03);
+    border-bottom: 1px solid rgba(33, 40, 50, 0.125);
+}
+.form-control, .dataTable-input {
+    display: block;
+    width: 100%;
+    padding: 0.875rem 1.125rem;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1;
+    color: #69707a;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #c5ccd6;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.35rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+ }
+
+.nav-borders .nav-link.active {
+    color: #0061f2;
+    border-bottom-color: #0061f2;
+}
+.nav-borders .nav-link {
+    color: #69707a;
+    border-bottom-width: 0.125rem;
+    border-bottom-style: solid;
+    border-bottom-color: transparent;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}

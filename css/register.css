@@ -1,0 +1,464 @@
+body{
+    background: linear-gradient(90deg,#2C394B,#082032);
+    font-family: 'Sacramento', cursive;;
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+}
+
+#btn_b{
+    visibility: hidden;
+    text-align: left;
+    display: block;
+}
+#check{
+    display: none;
+}
+.header h1{
+   margin: 0 auto 0 auto;
+   font-size: 3em;
+   color: #00ADB5;
+   padding: 0%;
+   display: inline-block;
+   
+}
+.header h1:hover{
+    transform: scale(2);
+    cursor: pointer;
+}
+.header1{
+   visibility: hidden;
+}
+
+.logo{
+    width: 10%;
+}
+.logo:hover{
+    transform: scale(1.5);
+}
+
+
+.navbar ul{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.navbar ul li{
+    text-decoration: none;
+    
+    padding: 1%;
+    list-style: none;
+    font-family: 'Baloo 2', cursive;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #EEEEEE;
+    font-size:1rem;
+    font-weight: bold;
+    
+}
+/*.navbar ul li:hover{
+  color: rgb(21, 49, 74);
+  background: #dff3ff;
+  background-image: -webkit-linear-gradient(top, #ffe0c1, #fafafa);
+  background-image: -webkit-linear-gradient(bottom, #ffe0c1, #fafafa);
+  text-decoration: none;
+  border-radius: 15%;
+
+}*/
+.navbar ul li a:hover{
+    color: rgb(255, 255, 255);
+    background: #dff3ff;
+    background-image: -webkit-linear-gradient(top, #00ADB5, #00ADB5);
+    background-image: -webkit-linear-gradient(bottom, #00ADB5, #00ADB5);
+    text-decoration: none;
+    border-radius: 1.5rem;
+    cursor: pointer;
+  }
+
+  .navbar ul li a:active{
+   color: #F9ED69;
+  }  
+
+
+
+.form1{
+    padding: 4%;
+    margin: 2%;
+}
+
+.subcont1{
+    align-items: center;
+    text-align: center;
+    margin: 0 30%;
+    background-color: #1B262C;
+    width: 40%;
+    box-shadow:  0 5px 18px #99faff, 0 5px 18px #99faff;
+}
+.form1 input{
+    width: 80%;
+    padding: 5%;
+    background-color: transparent;
+    border-color: aqua;
+    border-width: 3px; 
+    border: none; 
+    border-bottom: 2px solid #00acb5a9;
+    box-shadow:  0 2px 0px  #99faff95, 0 2px 0px  #99faff95;
+    color:#EEEEEE ;
+
+     
+}
+.form1 input:focus{
+    outline: none;
+    transform: scale(1.2);
+}
+.form1 input::placeholder{
+    font-size: 85%;
+    color: #EEEEEE;
+}
+.form1 span{
+    font-size: 100%;
+}
+#btnr{
+    background-color: #00f2ff;
+    color: #1B262C;
+    height: 3%;
+    width: 70%;
+}
+a{
+    text-decoration: none;
+}
+#Formh span{
+    color: #EEEEEE;
+}
+#Formh span a{
+    color: #EEEEEE;
+    font-family:' Baloo 2 ',cursive ;
+    text-decoration: none;
+    cursor: pointer;
+}
+#Formh span a:hover{
+    color: #99faff;
+    transform: scale(1.2);
+}
+
+
+
+/*Footer*/ 
+.container3 ul{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 0 0 ;
+
+}
+.container3 ul li{
+    text-decoration: none;
+    padding: 1%;
+    list-style: none;
+    cursor: pointer;
+    font-family: 'Baloo 2', cursive;
+}
+.container3 ul li a{
+    text-decoration: none;
+    color: #EEEEEE;
+    
+}
+.container3 ul li:hover{
+    background-color: #00ADB5;
+    color: #EEEEEE;
+    border-radius: 5rem;
+    font-size: 100%;
+}
+.container3 ul li a:hover{
+    background-color: #00ADB5;
+    color: #EEEEEE;
+
+
+}
+.lastcopy{
+    display: flex; 
+    align-items: center;
+}
+.divmain{
+    margin: 0% 0%;
+    padding: 0%;
+    box-shadow: 0 19px 38px rgba(255, 255, 255, 0.12), 0 15px 12px rgba(255, 255, 255, 0.12);
+
+}
+
+
+.servicecont label{
+    font-family: 'Baloo 2', cursive;
+    color: #00ADB5;
+    font-size: 150%;
+}
+
+
+#servicetypes{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+#servicetypes li{
+    text-decoration: none;
+    padding: 1%;
+    list-style: none;
+    cursor: pointer;
+    font-size: 100%;
+    font-family: 'Baloo 2', cursive;
+}
+#servicetypes li:hover{
+    background-color: #00ADB5;
+    color: #ffffff;
+    border-radius: 5rem;
+}
+#servicetypes li a{
+    color: #EEEEEE;
+    font-size: 100%;
+}
+
+#copyright{
+    font-family: 'Baloo 2',cursive;
+    align-items: center;
+    width: 100%;
+    text-align: start;
+    margin-left: 2%;
+    font-size: 100%;
+    color: #EEEEEE;
+}
+.social-media{
+    width: 100%;
+    text-align: center;
+    margin-top: 0;
+    padding-right: 38%;
+  }
+  
+  .social-media ul{
+    list-style: none;
+  }
+  
+  .social-media ul li{
+    display: inline-block;
+    cursor: pointer;
+    margin: 25px 15px;
+  }
+  
+  .social-media img{
+    width: 40px;
+    height: 40px;
+  }
+  .social-media img:hover{
+    box-shadow: 0 5px 10px rgba(255, 255, 255, 0.22), 0 15px 12px rgba(255, 255, 255, 0.2);
+    border-radius: 30%;
+  }  
+
+
+
+#changecolor lord-icon{
+   cursor: pointer;
+}
+#changecolor button{
+    background-color: #FF5722;
+    font-size: 80%;
+    padding: 0 ;
+    margin: 0 auto;
+    border-radius: 2rem;
+    color: #EEEEEE;
+    cursor: pointer;
+}
+#changecolor button:active{
+    background-color:#28bdc596;
+}
+
+#changecolor button span{
+    margin: 0 1% ;
+}
+#changecolor lord-icon:hover{
+    transform: scale(1.2);
+}
+#changecolor lord-icon:active{
+  transform:scale(1);
+}
+
+#changecolor button:hover{
+    transform:scale(1.2);
+}
+#changecolor button:active{
+    transform:scale(1);
+}
+#resetchange button{
+    background-color: #FF5722;
+    font-size: 80%;
+    padding: 0 ;
+    margin: 0 auto;
+    border-radius: 2rem;
+    color: #EEEEEE;
+    cursor: pointer;
+}
+#resetchange button:active{
+    background-color:#28bdc596;
+}
+
+#resetchange lord-icon{
+    cursor: pointer;
+}
+#resetchange lord-icon:hover{
+    transform: scale(1.2);
+}
+#resetchange lord-icon:active{
+    transform: scale(1);
+}
+#resetchange button:hover{
+    transform: scale(1.2);
+}
+#resetchange button:active{
+    transform: scale(1);
+}
+
+#resetchange button span{
+    margin: 0 1% ;
+}  
+
+
+@media only screen and (max-width:391px){
+    #btn_b{
+        visibility: visible;
+    }
+    .logo{
+        width: 25%;
+        display: block;
+        text-align: left;
+    }
+    .mainmenu{
+        transition: 2s;
+        margin-top: -450px;
+        margin-left: -250px;
+    }
+    .header h1{
+        margin-left: 2%;
+        font-size: 2em;
+        color: #00f2ff;
+        display:block;
+        text-align: left;
+        
+     }
+     .header h1:hover{
+        transform: scale(1);
+    } 
+    .navbar{
+        margin-left: -10%;
+    }
+    .navbar ul{
+        display: block;
+        text-align: left;
+        
+    }
+    .navbar ul li a{
+        text-decoration: none;
+        color: #1B262C;
+        font-size:0.8rem;
+        font-weight: bold;
+        
+    }
+    .navbar ul li a:hover{
+        padding-left: 10%;
+        cursor: pointer;
+      }
+  
+    .header1 h1{
+        visibility: visible;
+        font-size: 3em;
+        color: #00ADB5;
+        padding: 0%;
+    }
+    #check:checked ~ .mainmenu{
+      margin-left: 0px;
+      margin-top: 0px;
+      background-color: #adfbffad;
+    }
+    /*footer css*/
+ 
+    .container3 ul{
+        display: block;
+        text-align: center;
+        justify-content: center;
+        margin: 0 0 ;
+        padding-left: 0%;
+
+    }
+    
+    .container3 ul li a{
+        text-decoration: none;
+     
+        font-size: 0.8rem;
+        color: #EEEEEE;
+    }
+    
+    #servicetypes{
+        display: block;
+        padding-left: 0%;
+        text-align: center;
+        justify-content: center;
+    }
+    #copyright{
+        font-family: 'Baloo 2',cursive;
+        align-items: center;
+        width: 100%;
+        text-align: start;
+        margin-left: 2%;
+        font-size: 100%;
+        color: #EEEEEE;
+    }
+    #copyright{
+        font-family: 'Baloo 2',cursive;
+        align-items: center;
+        width: 100%;
+        text-align: start;
+        margin: 0%;
+        font-size: 0.75rem;
+        color: #EEEEEE;
+    }
+    .social-media{
+        width: 100%;
+        text-align: center;
+        margin-top: 0;
+        padding-right: 38%;
+      }
+      
+      .social-media ul{
+        list-style: none;
+        margin: 0%;
+        padding: 0%;
+      }
+      
+      .social-media ul li{
+        display: inline-block;
+        cursor: pointer;
+        margin: 25px 15px;
+      }
+      
+      .social-media img{
+        width: 40px;
+        display: flex;
+        height: 40px;
+      }
+      .social-media img:hover{
+        box-shadow: 0 5px 10px rgba(255, 255, 255, 0.22), 0 15px 12px rgba(255, 255, 255, 0.2);
+        border-radius: 30%;
+      }
+
+    .lastcopy{
+        display: block;
+    }   
+    #subcont1{
+        align-items: center;
+        text-align: center;
+        margin: 0 10%;
+        background-color: #1B262C;
+        width: 80%;
+        box-shadow:  0 5px 18px #99faff, 0 5px 18px #99faff;
+    }
+
+}

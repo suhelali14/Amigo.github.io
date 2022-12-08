@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    
+
+}
+body{
+    background: linear-gradient(90deg,#2C394B,#082032);
+}
+.header{
+    top: 0;
+    z-index: 1;
+    box-shadow: 0px 8px 10px 0px  rgb(0, 0, 0,0.57);
+    left: 0;
+    width: 100%;
+    position: fixed;
+    background: linear-gradient(135deg,#2C394B,#071f30);
+    justify-content: space-between;
+}
+header.sticky{
+    background: linear-gradient(135deg,#2C394B,#071f30);
+}
+.span-1 h1{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+.header ul{
+    position: relative;
+    display: flex;
+    padding: 1%;
+    letter-spacing: 1px;
+    align-items: center;
+    justify-content: space-between;
+}
+.header ul span{
+    position: relative;
+    font-size: 1.5rem;
+    color: #5aff70;
+    
+}
+.header ul li{
+    position: relative;
+    list-style: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+    
+  
+}
+.header ul li a{
+    position: relative;
+    color: aliceblue;
+    text-decoration: none;
+    
+}
+header.sticky ul {
+    padding: 0%;
+}
+.btnd{
+    font-size: 1.3rem;
+    border-radius: 2rem;
+    padding: 1%;
+    color: #ededed;
+    border-color: #5aff70;
+    background-color: transparent;
+    cursor: pointer;
+    
+}
+.btnd:hover{
+    background-color: #55acee86;
+    border-color: black;
+    transition: 0.58s;
+    transform: scale(1.12);
+}
+ 
+ 
+.title-1{
+    margin-left: 30%;
+}
+.span-1{
+    margin-left: 3rem;
+    
+}
+.span-1 h1{
+    font-size: 2.5rem;
+    font-family: 'ubuntu';
+}
+.login{
+    font-size: 1.2rem;
+    border-radius: 2rem;
+    padding: 1%;
+    color: #ededed;
+    border-color: #5aff70;
+    background-color: transparent;
+    cursor: pointer;
+  
+} 
+.login:hover{
+    background-color: #55acee86;
+    border-color: black;
+    transition: 0.58s;
+    transform: scale(1.12);
+}
+.header ul li{
+    font-size: 1.15rem;
+    font-weight: 500;
+}
+.section-1{
+    display: flex;
+
+}
+
+:root {
+    font-size: 10px;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+
+
+img {
+    display: block;
+}
+
+.container {
+    max-width: 93.5rem;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.btn {
+    display: inline-block;
+    font: inherit;
+    background: none;
+    border: none;
+    color: inherit;
+    padding: 0;
+    cursor: pointer;
+}
+
+.btn:focus {
+    outline: 0.5rem auto #4d90fe;
+}
+
+.visually-hidden {
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    clip: rect(1px, 1px, 1px, 1px);
+}
+
+/* Profile Section */
+
+.profile {
+    padding: 5rem 0;
+}
+
+.profile::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.profile-main{
+    margin-top: 8%;
+}
+
+.profile-image {
+    float: left;
+    width: calc(33.333% - 1rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 3rem;
+}
+
+.profile-image img {
+    border-radius: 50%;
+}
+
+.profile-user-settings,
+.profile-stats,
+.profile-bio {
+    float: left;
+    width: calc(66.666% - 2rem);
+}
+
+.profile-user-settings {
+    margin-top: 1.1rem;
+}
+
+.profile-user-name {
+    display: inline-block;
+    font-size: 3.2rem;
+    font-weight: 300;
+}
+
+.profile-edit-btn {
+    font-size: 1.4rem;
+    line-height: 1.8;
+    border: 0.1rem solid #dbdbdb;
+    border-radius: 0.3rem;
+    padding: 0 2.4rem;
+    margin-left: 2rem;
+}
+
+.profile-settings-btn {
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+
+.profile-stats {
+    margin-top: 2.3rem;
+}
+
+.profile-stats li {
+    display: inline-block;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    margin-right: 4rem;
+    cursor: pointer;
+}
+
+.profile-stats li:last-of-type {
+    margin-right: 0;
+}
+
+.profile-bio {
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-top: 2.3rem;
+}
+
+.profile-real-name,
+.profile-stat-count,
+.profile-edit-btn {
+    font-weight: 600;
+}
+
+.container-1{
+    background-color: #bababa;
+    margin-top: 10rem;
+}
+.icon-name{
+    display: flex;
+} 
+.imglog{
+
+    visibility: hidden;
+}

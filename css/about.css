@@ -1,0 +1,260 @@
+body{
+    background: linear-gradient(90deg,#2C394B,#082032);
+    font-family: 'Sacramento', cursive;;
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+}
+
+#check{
+  display: none;
+}
+#btn_b{
+  visibility: hidden;
+}
+.menu{
+   cursor: pointer;
+   margin-right: 0%;
+   display: block;
+
+}
+
+.menu:hover{
+   transition: 1s;
+}
+.menu:active{
+   transform: scale(2);
+}
+.header h1{
+   margin: 0 auto 0 auto;
+   font-size: 3em;
+   color: #00ADB5;
+   padding: 0%;
+   display: inline-block;
+   
+}
+.header h1:hover{
+    transform: scale(2);
+    cursor: pointer;
+}
+
+.logo{
+    width: 10%;
+}
+.logo:hover{
+    transform: scale(1.5);
+}
+
+.header1{
+  visibility: hidden;
+}
+.navbar ul{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.navbar ul li{
+    text-decoration: none;
+    
+    padding: 1%;
+    list-style: none;
+    font-family: 'Baloo 2', cursive;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #EEEEEE;
+    font-size:1rem;
+    font-weight: bold;
+    
+}
+/*.navbar ul li:hover{
+  color: rgb(21, 49, 74);
+  background: #dff3ff;
+  background-image: -webkit-linear-gradient(top, #ffe0c1, #fafafa);
+  background-image: -webkit-linear-gradient(bottom, #ffe0c1, #fafafa);
+  text-decoration: none;
+  border-radius: 15%;
+
+}*/
+.navbar ul li a:hover{
+    color: rgb(255, 255, 255);
+    background: #dff3ff;
+    background-image: -webkit-linear-gradient(top, #00ADB5, #00ADB5);
+    background-image: -webkit-linear-gradient(bottom, #00ADB5, #00ADB5);
+    text-decoration: none;
+    border-radius: 1.5rem;
+    cursor: pointer;
+  }
+
+  .navbar ul li a:active{
+   color: #F9ED69;
+  }  
+
+  .content1{
+    display: flex;
+    margin-left: 25%;
+    text-align: center;
+    align-items: center;
+    position: relative;
+
+}
+.content-1-left {
+    font-family: 'Baloo 2', cursive;
+    font-style: italic;
+    padding-right: 10%;
+    color: #EEEEEE;
+    width: 100%;
+    
+}
+.content-1-left h2{
+    font-weight: bold;
+    color: #FF5722;
+}
+.content-1-right{
+    margin-right: 10%;
+}
+.content-1-right img{
+    width: 90%;
+    border-radius: 50%;
+    border: black;
+    padding-left: 5%;
+    display: block;
+    
+}
+/* Three columns side by side */
+.column {
+    float: left;
+    width: 31.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+  /* Display the columns below each other instead of side by side on small screens */
+  @media screen and (max-width: 100%) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+
+
+  
+  /* Add some shadows to create a card effect */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  #img1 {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    cursor: pointer;
+}
+
+#img1:hover {
+    filter: none;
+    -webkit-filter: grayscale(0);
+}
+
+#img2 {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  cursor: pointer;
+}
+
+#img2:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
+}
+  
+  /* Some left and right padding inside the container */
+  .container {
+    padding: 0 16px;
+  }
+  
+  /* Clear floats */
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }  
+
+
+
+@media only screen and (max-width:415px){
+    #btn_b{
+      visibility:visible;
+    }
+    .logo{
+        width: 25%;
+        display: block;
+        text-align: left;
+    }
+    .mainmenu{
+        transition: 2s;
+        margin-top: -450px;
+        margin-left: -250px;
+    }
+    .header h1{
+        margin-left: 2%;
+        font-size: 2em;
+        color: #00f2ff;
+        display:block;
+        text-align: left;
+        font-family: 'Sacramento', cursive;
+        
+     }
+     .header h1:hover{
+        transform: scale(1);
+    } 
+    .navbar{
+        margin-left: -10%;
+    }
+    .navbar ul{
+        display: block;
+        text-align: left;
+        
+    }
+    .navbar ul li a{
+        text-decoration: none;
+        color: #1B262C;
+        font-size:0.8rem;
+        font-weight: bold;
+        
+    }
+    .navbar ul li a:hover{
+        padding-left: 10%;
+        cursor: pointer;
+      }
+  
+    .header1 h1{
+        visibility: visible;
+        font-size: 3em;
+        color: #00ADB5;
+        padding: 0%;
+    }
+  #check:checked ~ .mainmenu{
+      margin-left: 0px;
+      margin-top: 0px;
+      background-color: #adfbffad;
+    }
+}  
